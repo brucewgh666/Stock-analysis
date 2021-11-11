@@ -26,7 +26,8 @@ VSLR:Vivint Solar.
  
  From a big picture, the total stock performance of 2017 is remarkble except TERP:TerraForm Power have negative 7.2% . Among all the growth of 2017 new energy stock, DQ ENPH FSLR TERP have obtained over 100% growth. DQ hold the first place 199.4%. SPWR have largest total daily volume 782,187,000. DQ have smallest total daily volume 35,796,200.
 
-![2018 performance](https://user-images.githubusercontent.com/93842672/141137680-87f7f93a-a797-4d0a-bc37-d1a8683cb35a.png)
+<img width="235" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/93842672/141385589-4d66f3b9-57dd-4e90-8459-c3b30a6b43f2.PNG">
+
 -ANALYSIS of 2018 stock performace
 
 Overview of 2018 new energy stock marekt，most of stock give negative return except ENPH(81%) AND RUN(84%) give positve return.Also,ENPH have the largest total daily volume.  Among all the negative return, DQ(-62.6%) and JKS(-60.5%) give the largest negative return rate. DQ have largest decrease return rate.
