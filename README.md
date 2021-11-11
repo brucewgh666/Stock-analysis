@@ -26,7 +26,6 @@ VSLR:Vivint Solar.
  
  From a big picture, the total stock performance of 2017 is remarkble except TERP:TerraForm Power have negative 7.2% . Among all the growth of 2017 new energy stock, DQ ENPH FSLR TERP have obtained over 100% growth. DQ hold the first place 199.4%. SPWR have largest total daily volume 782,187,000. DQ have smallest total daily volume 35,796,200.
 
-<img width="235" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/93842672/141385589-4d66f3b9-57dd-4e90-8459-c3b30a6b43f2.PNG">
 
 -ANALYSIS of 2018 stock performace
 
@@ -36,7 +35,8 @@ Overview of 2018 new energy stock marekt，most of stock give negative return ex
 Summary:
 
 <img width="237" alt="2017 running time" src="https://user-images.githubusercontent.com/93842672/141146624-63efdd50-1d2e-4bfe-a5a1-e447cb1ae63d.png">
-<img width="248" alt="2018 running time" src="https://user-images.githubusercontent.com/93842672/141146670-d8d75ede-8099-4222-9a16-e28ad237b723.png">
+
+<img width="235" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/93842672/141385589-4d66f3b9-57dd-4e90-8459-c3b30a6b43f2.PNG">
 The advantages of refactoring code is optimize the design and structure of orginal code,but still perform the same function. Also another advantage of refactoring code is let this code can fit in more scenario.
 When this refactor code apply to the original VBA script,one pros is having less processing time. It indicate it is more efficient, the program go faster.When we process extreme large database similar to this.It will cause less time to get exact same result.
 
