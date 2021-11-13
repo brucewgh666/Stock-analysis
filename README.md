@@ -8,7 +8,6 @@ Our project is mainly focus on the performance of 12 new sustainable energy stoc
 Results:
 
 Description of stock category: 
-
 AY: Atlantica sustainable Infrastructure
 CSIQ: Canadian Solar Inc.
 DQ: Daqo New Energy
@@ -21,6 +20,61 @@ SEDG:Solaredge Technologies Inc.
 SPWR:SunPower Corporation
 TERP:TerraForm Power
 VSLR:Vivint Solar.
+
+    '1a) Create a ticker Index
+    tickerIndex = 0
+    '1b) Create three output arrays
+    Dim tickerVolumes(12) As Long
+    Dim tickerStartingPrices(12) As Single
+    Dim tickerEndingPrices(12) As Single
+
+    
+    ''2a) Create a for loop to initialize the tickerVolumes to zero.
+    For i = 0 To 11
+    tickerVolumes(i) = 0
+    tickerStartingPrices(i) = 0
+    tickerEndingPrices(i) = 0
+    Next i
+        
+    ''2b) Loop over all the rows in the spreadsheet.
+    For i = 2 To RowCount
+    
+        '3a) Increase volume for current ticker
+        tickerVolumes(ticketIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
+        
+        '3b) Check if the current row is the first row with the selected tickerIndex.
+        'If  Then
+        If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
+            tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
+        End If
+            
+            
+        'End If
+        
+        '3c) check if the current row is the last row with the selected ticker
+         'If the next rowâ€™s ticker doesnâ€™t match, increase the tickerIndex.
+        'If  Then
+          If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
+          tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
+          End If
+            
+
+            '3d Increase the tickerIndex.
+           If Cells(i, 1).Value = tickers(tickerIndex) And Cells(i - 1, 1).Value <> tickers(tickerIndex) Then
+           tickerIndex = tickerIndex + 1
+           End If
+            
+        'End If
+    
+    Next i
+    
+    '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+    For i = 0 To 11
+        
+        Worksheets("All Stocks Analysis").Activate
+        
+        
+    Next i
 ![2017 performance](https://user-images.githubusercontent.com/93842672/141137623-e3df836a-fec5-4426-8bfa-4f5c183c3e69.png)
 -ANALYSIS of 2017 stock performace
  
