@@ -21,6 +21,8 @@ SPWR:SunPower Corporation
 TERP:TerraForm Power
 VSLR:Vivint Solar.
 
+Below is my refactor analysis code saved in excel macro.
+
     '1a) Create a ticker Index
     tickerIndex = 0
     '1b) Create three output arrays
@@ -75,10 +77,13 @@ VSLR:Vivint Solar.
         
         
     Next i
-![2017 performance](https://user-images.githubusercontent.com/93842672/141137623-e3df836a-fec5-4426-8bfa-4f5c183c3e69.png)
+<img width="205" alt="2017 Capture" src="https://user-images.githubusercontent.com/93842672/141657707-5c83ef3d-4061-4b21-8c14-5c0450542acf.PNG">
+
 -ANALYSIS of 2017 stock performace
  
  From a big picture, the total stock performance of 2017 is remarkble except TERP:TerraForm Power have negative 7.2% . Among all the growth of 2017 new energy stock, DQ ENPH FSLR TERP have obtained over 100% growth. DQ hold the first place 199.4%. SPWR have largest total daily volume 782,187,000. DQ have smallest total daily volume 35,796,200.
+ 
+<img width="206" alt="2018 Capture" src="https://user-images.githubusercontent.com/93842672/141657671-b8fae21a-ed95-4365-8e9e-b10c85f4f2c5.PNG">
 
 
 -ANALYSIS of 2018 stock performace
@@ -91,6 +96,8 @@ Summary:
 <img width="237" alt="2017 running time" src="https://user-images.githubusercontent.com/93842672/141146624-63efdd50-1d2e-4bfe-a5a1-e447cb1ae63d.png">
 
 <img width="235" alt="VBA_Challenge_2018" src="https://user-images.githubusercontent.com/93842672/141385589-4d66f3b9-57dd-4e90-8459-c3b30a6b43f2.PNG">
-The advantages of refactoring code is optimize the design and structure of orginal code,but still perform the same function. Also another advantage of refactoring code is let this code can fit in more scenario.
-When this refactor code apply to the original VBA script,one pros is having less processing time. It indicate it is more efficient, the program go faster.When we process extreme large database similar to this.It will cause less time to get exact same result.
+The advantages of refactoring code is optimize the design and structure of orginal code,but still perform the same function. Also another advantage of refactoring code is let this code can fit in more scenario such as if we want analysis 1000 stocks at a time.
+When this refactor code apply to the original VBA script,one pros is having less processing time,almost 70% time less, It indicate it is more efficient, the program go faster.When we process extreme large database similar to this.It will cause less time to get exact same result.
+Thd disadvantage of refactoring code:
+Some times bug macro can cause the whole database damaged, also some uncertain macro can contain virus to attack the database,also privacy document will be exposed.
 
